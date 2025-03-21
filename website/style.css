@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* General Styling */
+body {
+    font-family: Georgia, serif;
+    background-color: #f8f9fa; /* Light background */
+    color: #222; /* Dark text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Bar */
+nav {
+    background: #666;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Main Content */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Unique Layout for Soccer Page */
+.soccer-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.soccer-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Description List */
+dl {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-bottom: 10px;
+}
