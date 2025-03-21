@@ -1,6 +1,8 @@
+/* styles.css */
+
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     background-color: #f8f9fa; /* Light background */
     color: #222; /* Dark text */
     margin: 0;
@@ -9,7 +11,7 @@ body {
 
 /* Header */
 header {
-    background-color: #444; /* Slightly darker header */
+    background-color: #444;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -27,6 +29,7 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -49,4 +52,44 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+/* Unique Layout for Soccer Page */
+.soccer-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.soccer-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Description List */
+dl {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-bottom: 10px;
 }
